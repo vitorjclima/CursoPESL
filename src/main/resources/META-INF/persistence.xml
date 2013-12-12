@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="ControleDeIntervencoesUP" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>br.com.vitorjclima.controledeintervencoes.db.Anexo</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.EquipamentoPessoa</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.IntervencaoAnexo</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.Empresa</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.Condicao</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.EmpresaAnexo</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.Pessoa</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.Intervencao</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.Frequencia</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.EquipamentoAnexo</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.Equipamento</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.Tolerancia</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.LaudoIntervencao</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.IntervencaoTipo</class>
+    <class>br.com.vitorjclima.controledeintervencoes.db.SistemaMedicao</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://maxses.com.br:3306/natura_pesl?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.password" value="Pinguim@2013"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="natura_vitor"/>
+    </properties>
+  </persistence-unit>
+</persistence>

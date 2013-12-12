@@ -1,4 +1,4 @@
-CursoPESL
-=========
+controledecalibracoes
+=====================
 
-Criando meu primeiro projeto de software utilizando interface grÃ¡fica PrÃ©-requisitos: LÃ³gica de programaÃ§Ã£o  SerÃ£o utilizados: Linguagem de ProgramaÃ§Ã£o: Java IntegraÃ§Ã£o de Projetos/DependÃªncias: Maven Banco de Dados: MySQL IDE: NetBeans
+Planejar, controlar e administrar a calibração e manutenção de equipamentos de um laboratório de análises químicas, bem como a validação dos laudos técnicos emitidos.
